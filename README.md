@@ -4,8 +4,8 @@
 
 # Installation
 1. Clone this repo.
-2. Move .env.sample to .env
-3. Add your credentials for Twilio and VoiceIt and add your Sync SIDs.
+2. Move `.env.sample` to `.env`
+3. Add your credentials for `Twilio` and `VoiceIt` and add your `Sync SIDs`.
 4. Deploy your serverless functions `twilio serverless:deploy`
 5. Upload `studio.json` into a Studio Flow in your Twilio Account.
 6. Update `GatherEnrollRecording` widget with `/enroll-voice-auth` endpoint.
