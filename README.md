@@ -17,3 +17,5 @@
 That's it, assign a number to your Studio flow and make a call.
 - First time you call it, you can press 1 to enroll in voice auth. It will ask you to repeat a phrase 4 times.
 - Second time you call it you can press 2 to authenticate and it will verify or fail.
+
+<p align="center"><img src="./screenshots/studio.png?raw=true" /></p>
