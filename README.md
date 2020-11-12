@@ -8,8 +8,8 @@
 3. Add your credentials for `Twilio` and `VoiceIt` and add your `Sync SIDs`.
 4. Deploy your serverless functions `twilio serverless:deploy`
 5. Upload `studio.json` into a Studio Flow in your Twilio Account.
-6. Update `GatherEnrollRecording` widget with `/enroll-voice-auth` endpoint.
-7. Update `GatherAuthRecording` widget with `/process-voice-auth` endpoint.
+6. Update `GatherEnrollRecording` widget with your serverless domain.
+7. Update `GatherAuthRecording` widget with your serverless domain.
 8. Map `Sleep8Seconds` and `Sleep8SecondsB` widgets to `delay` function.
 9. Map `VerifyVoiceAuth` to `verify-voice-auth` function.
 10. Map `CheckIfEnrolled` to `find-voice-auth` function.
